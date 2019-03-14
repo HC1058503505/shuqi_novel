@@ -64,7 +64,7 @@ class _ReaderView extends State<ReaderView> {
         Screen.height -
             Screen.topSafeHeight -
             Screen.bottomSafeHeight -
-            37.0 * 2.0);
+            37.0 * 2.0 - 20.0);
     double fontSize = 20.0;
     String tempStr = article.content;
     List<Map<String, int>> pageConfig = [];

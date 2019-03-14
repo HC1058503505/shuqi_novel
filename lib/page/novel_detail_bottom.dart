@@ -8,10 +8,11 @@ class NovelDetailBottom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    // Border.all(color: Colors.black12.withAlpha(10))
     return Container(
       decoration: BoxDecoration(
         color: Colors.white,
-        border: Border.all(color: Colors.black12.withAlpha(10)),
+        border: Border(top: BorderSide(color: Colors.black12.withAlpha(10), width: 2.0 )),
       ),
       height: 64 + Screen.bottomSafeHeight,
       child: Row(
